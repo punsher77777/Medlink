@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
 
 </head>
@@ -14,7 +15,7 @@
   <!-- Navbar section -->
   <nav class="navbar">
     <div class="navbar__container">
-        <a href="index.html" id="navbar__logo"><i class="fa-solid fa-suitcase-medical"></i>MEDLINK</a>
+        <a href="home.html" id="navbar__logo"><i class="fa-solid fa-suitcase-medical"></i>MEDLINK</a>
         <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -23,7 +24,7 @@
         </div>
         <ul class="navbar__menu">
             <li class="navbar__item">
-                <a href="index.html" class="navbar__links">Home</a>
+                <a href="home.html" class="navbar__links">Home</a>
             </li>
             <li class="navbar__item">
                 <a href="pharm.html" class="navbar__links">pharmacies</a>
@@ -35,6 +36,7 @@
                 <a href="contact.html" class="navbar__links">Contact</a>
             </li>
 
+
          
         </ul>
     </div>
@@ -45,20 +47,28 @@
 <!-- hero section -->
 
 
-     <video controls loop muted autoplay id="bgvideo">
-    <source src="video2.mp4" type="video/mp4">
-  </video>
-<div class="background">
-    <div class="card">
-        <h1 class="main_h1">Get Your Medication Approved Now!</h1> <br>
-        <p class="main_p"> Medlink is a service which aims at helping you reduce your waiting 
-            time to get your approval from your medical insurance.. 
-            <br>
-             <br>For more information click <br> the about button</p> <br> <br>
-    <a href="pharm.html" class="main_btn">Browse all pharmacies</a>
-    </div>
-</div>
+<!-- form section start -->
+<section class="w3l-mockup-form">
+    <div class="container">
+        <div class="workinghny-form-grid">
+            <div class="main-mockup">
+                <div class="content-wthree">
+                    <h2>Login</h2>
+                    <form action="home.html" method="">
+                        <input type="email" class="email" name="email" placeholder="Email" required>
+                        <input type="password" class="password" name="password" placeholder="Password" style="margin-bottom: 2px;" required> <br> <br>
+                        <button name="submit" name="submit" class="btn" type="submit">Login</button>
+                    </form>
+                    <br> <br>
+                    <div class="social-icons">
+                        <p>join us here! <a href="register.html">Register</a>.</p>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -91,7 +101,7 @@
     <div class="social__media">
         <div class="social__media--wrap">
             <div class="footer__logo">
-                <a href="index.html" id="footer__logo"><i class="fa-solid fa-suitcase-medical "></i>MEDLINK</a>
+                <a href="home.html" id="footer__logo"><i class="fa-solid fa-suitcase-medical "></i>MEDLINK</a>
             </div>
             <p class="website__rights">MEDLINK 2022. All rights Reserved</p>
             <div class="social__icons">
@@ -118,3 +128,7 @@
 <script src="app.js"></script>
 </body>
 </html>
+
+
+
+

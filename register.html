@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
 
 </head>
@@ -34,9 +35,6 @@
             <li class="navbar__item">
                 <a href="contact.html" class="navbar__links">Contact</a>
             </li>
-            <li class="navbar__item">
-                <a href="index.html" class="navbar__links">logout</a>
-            </li>
 
          
         </ul>
@@ -47,24 +45,33 @@
 <!-- hero section -->
 <!-- hero section -->
 
-<div class="main">
-    <div class="main__container">
-        <div class="form__container">
-            <form action="https://formspree.io/f/mayvadjp" method="POST" id="my-form">
-                <h3>Send Email</h3>
-                <input type="text" id="Name" placeholder="Your Name" required name="Name">
-                <input type="email" id="email" placeholder="Email" required name="Email">
-                <input type="text" id="phone" placeholder="Phone No." required name="Phone NO.">
-                <textarea id="message" rows="6" placeholder="How can we help you?" name="Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
-            <div id="status"></div>
+
+
+    <!-- form section start -->
+    <section class="w3l-mockup-form">
+        <div class="container">
+            <!-- /form -->
+            <div class="workinghny-form-grid">
+                <div class="main-mockup">
+
+                    <div class="content-wthree">
+                        <h2>Register Now</h2>
+                        <form action="index.html" method="">
+                            <input type="text" class="name" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" class="email" name="email" placeholder="Enter Your Email" required>
+                            <input type="password" class="password" name="password" placeholder="Enter Your Password" required>
+                            <button name="submit" class="btn" type="submit">Register</button>
+                        </form>
+                        <br> <br>
+                        <div class="social-icons">
+                            <p>Have an account! <a href="index.html">Login</a>.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
         </div>
-
-    </div>
-</div>
-
-
+    </section>
 
 
 
@@ -124,3 +131,7 @@
 <script src="app.js"></script>
 </body>
 </html>
+
+
+
+
